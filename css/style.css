@@ -1,11 +1,55 @@
 body {
     margin: 0;
-}
-
-div {
-    background-color: #e4f9f5;
+    text-align: center;
 }
 
 h1 {
-    margin: 0;
+    position: absolute;
+    margin-top: 100px;
+    left: 620px;
+}
+
+p {
+    position: absolute;
+    margin-top: 160px;
+    left: 600px;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 25px;
+    right: 400px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 220px;
+    left: 380px;
+}
+
+.mountain {
+    position: absolute;
+    top: 220px;
+    left: 370px;
+}
+
+.middle-container {
+    position: absolute;
+    top: 600px;
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.bottom-container {
+    position: absolute;
+    top: 800px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
 }
