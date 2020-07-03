@@ -1,45 +1,60 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
+    font-family: 'Sacramento', cursive;
     position: absolute;
-    margin-top: 100px;
-    left: 620px;
+    top: 110px;
+    left: 605px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
     position: absolute;
-    margin-top: 160px;
-    left: 600px;
+    top: 170px;
+    left: 575px;
+}
+
+.description {
+    text-decoration: underline;
 }
 
 .top-container {
     background-color: #e4f9f5;
+    position: relative;
+    height: 615px;
 }
 
 .top-cloud {
     position: absolute;
-    top: 25px;
-    right: 400px;
+    top: 50px;
+    left: 880px;
 }
 
 .bottom-cloud {
     position: absolute;
-    top: 220px;
-    left: 380px;
+    top: 250px;
+    left:280px;
 }
 
 .mountain {
     position: absolute;
-    top: 220px;
+    top: 230px;
     left: 370px;
 }
 
 .middle-container {
-    position: absolute;
-    top: 600px;
+    position: relative;
     display: block;
     height: 200px;
     width: 200px;
@@ -47,8 +62,7 @@ p {
 }
 
 .bottom-container {
-    position: absolute;
-    top: 800px;
+    position: relative;
     height: 200px;
     width: 200px;
     background-color: blue;
