@@ -39,6 +39,10 @@ a {
     text-decoration: underline;
 }
 
+.note {
+    text-decoration: underline;
+}
+
 .top-cloud {
     position: absolute;
     top: 50px;
@@ -69,6 +73,17 @@ a {
     line-height: 2;
 }
 
+.website-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.stocks-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
 .hiker-image {
     width: 25%;
     float: left;
