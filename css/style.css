@@ -1,4 +1,5 @@
 body {
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -9,6 +10,15 @@ body {
     background-color: #e4f9f5;
     position: relative;
     height: 610px;
+}
+
+.middle-container {
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
 }
 
 h1 {
@@ -24,6 +34,7 @@ h2 {
     font-size: 2rem;
     color: #66BFBF;
     font-weight: normal;
+    margin-top: 10px;
 }
 
 h3 {
@@ -31,8 +42,27 @@ h3 {
     color: #11999E;
 }
 
+p { 
+    line-height: 2;
+}
+
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+hr {
+    border: 7px dotted;
+    border-bottom: none;
+    width: 10%;
+    color: #d0dbdb;
+    margin-top: 100px auto;
 }
 
 .description {
@@ -46,13 +76,13 @@ a {
 .top-cloud {
     position: absolute;
     top: 50px;
-    left: 900px;
+    left: 950px;
 }
 
 .bottom-cloud {
     position: absolute;
     top: 335px;
-    left:250px;
+    left:200px;
 }
 
 .mountain {
@@ -62,25 +92,33 @@ a {
 }
 
 .profile {
-    width: 50%;
-    margin: 50px auto;
-    text-align: left;
+    width: 40%;
+    margin: auto;
+    text-align: center;
     line-height: 2;
+    padding-bottom: 20px;
 }
 
 .profile img {
     margin-top: 50px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    clear: both;
     width: 35%;
 }
 
 .skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 70px auto;
     text-align: left;
     line-height: 2;
+}
+
+.skills-hobbies {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: 50px;
 }
 
 .website-image {
@@ -119,13 +157,66 @@ a {
     margin-left: 30px;
 }
 
-/*
-.hiking-description {
-    clear: left;
+.contact-me {
+    width: 40%;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.rving-description {
-    clear: right;
+.get-in-touch {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: 50px;
 }
-*/
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 12px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px auto;
+}
+    
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75em;
+    padding: 20px 0;
+}
 
