@@ -61,9 +61,19 @@ a {
     left: 370px;
 }
 
+.profile {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .profile img {
     margin-top: 50px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    width: 35%;
 }
 
 .skill-row {
@@ -84,6 +94,7 @@ a {
     float: right;
     margin-left: 30px;
 }
+
 .hiker-image {
     width: 25%;
     float: left;
@@ -91,6 +102,18 @@ a {
 }
 
 .camper-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.fireman-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.truck-image {
     width: 25%;
     float: right;
     margin-left: 30px;
