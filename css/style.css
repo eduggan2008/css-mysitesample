@@ -157,6 +157,11 @@ hr {
     margin-left: 30px;
 }
 
+.attribution {
+    font-size: 75%;
+    text-align: center;
+}
+
 .contact-me {
     width: 40%;
     padding-bottom: 40px;
